@@ -1,11 +1,35 @@
 @import "../../Styles/variables";
 
-.sidebar{
+.sidebar {
     display: flex;
-    width: 60px;
+    flex-direction: column;
+    width: 64px;
+    height: 100vh;
     background-color: $sidebarColor;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    box-shadow: 5px 0 20px rgba($color: #14FFEC, $alpha: .5);
 }
 
-.logo{
-    width: 32px;
+.logo {
+    margin-top: 20px;
+    width: 36px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    .icons {
+        width: 34px;
+        cursor: pointer;
+    }
+}
+
+.profileImage {
+    width: 36px;
+    margin-bottom: 20px;
+    border-radius: 50%;
 }

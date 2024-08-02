@@ -5,7 +5,7 @@ body{
     max-width: 1440PX;
     width: 100%;
     box-sizing: border-box;
-    margin: auto;
+    margin: 0;
     background-color: #191B1F;
     font-family: "Syne";
 }
