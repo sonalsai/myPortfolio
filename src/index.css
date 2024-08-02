@@ -9,3 +9,9 @@ body{
     background-color: #191B1F;
     font-family: "Syne";
 }
+
+.container{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}

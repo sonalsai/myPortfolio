@@ -1,14 +1,20 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useState } from 'react'
 import SideBar from '../SideBar/SideBar'
 import Home from '../Home/Home'
 
 function Index() {
+
+    const [showHome, setShowHome] = useState(false);
+
+    const handleDisplayHome = () => {
+        setShowHome(true);
+    }
     return (
-        <>
-            <SideBar />
-            <Home />
-        </>
+        <div className='container'>
+            <SideBar handleDisplayHome={handleDisplayHome} />
+            {showHome && <Home />}
+        </div>
     )
 }
 
