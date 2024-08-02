@@ -5,7 +5,7 @@ function Home() {
 
   const hi = `console.log("Hi...");`
   const name = `() => <name>SONAL SAI</name>`;
-  const description = `Error:404 {meassage:"I'm a Frontend Developer"}`
+  const description = `Error:403 {meassage:"I'm a Frontend Developer"}`
   return (
     <div className="homeContainer">
       <h1 className="head1">{hi}</h1>
