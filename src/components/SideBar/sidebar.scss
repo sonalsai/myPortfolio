@@ -1,0 +1,11 @@
+@import "../../Styles/variables";
+
+.sidebar{
+    display: flex;
+    width: 60px;
+    background-color: $sidebarColor;
+}
+
+.logo{
+    width: 32px;
+}
